@@ -1,12 +1,6 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "package.json",
-      "use": "vercel-sapper@rc",
-      "config:": {
-        "include": ["static"]
-      }
-    }
+    { "src": "package.json", "use": "vercel-sapper@rc" }
   ]
 }
